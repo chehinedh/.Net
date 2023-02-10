@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "First/1.0.0": {
+        "dependencies": {
+          "Seance": "1.0.0"
+        },
+        "runtime": {
+          "First.dll": {}
+        }
+      },
+      "Seance/1.0.0": {
+        "runtime": {
+          "Seance.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "First/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Seance/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
