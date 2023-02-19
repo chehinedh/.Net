@@ -10,15 +10,3 @@ C:\Users\Houssem\source\repos\Houssemm\Seance\obj\Debug\net6.0\Seance.dll
 C:\Users\Houssem\source\repos\Houssemm\Seance\obj\Debug\net6.0\refint\Seance.dll
 C:\Users\Houssem\source\repos\Houssemm\Seance\obj\Debug\net6.0\Seance.pdb
 C:\Users\Houssem\source\repos\Houssemm\Seance\obj\Debug\net6.0\ref\Seance.dll
-C:\Users\Chehine\Desktop\.Net-c-\Seance\bin\Debug\net6.0\Seance.deps.json
-C:\Users\Chehine\Desktop\.Net-c-\Seance\bin\Debug\net6.0\Seance.dll
-C:\Users\Chehine\Desktop\.Net-c-\Seance\bin\Debug\net6.0\Seance.pdb
-C:\Users\Chehine\Desktop\.Net-c-\Seance\obj\Debug\net6.0\Seance.csproj.AssemblyReference.cache
-C:\Users\Chehine\Desktop\.Net-c-\Seance\obj\Debug\net6.0\Seance.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Chehine\Desktop\.Net-c-\Seance\obj\Debug\net6.0\Seance.AssemblyInfoInputs.cache
-C:\Users\Chehine\Desktop\.Net-c-\Seance\obj\Debug\net6.0\Seance.AssemblyInfo.cs
-C:\Users\Chehine\Desktop\.Net-c-\Seance\obj\Debug\net6.0\Seance.csproj.CoreCompileInputs.cache
-C:\Users\Chehine\Desktop\.Net-c-\Seance\obj\Debug\net6.0\Seance.dll
-C:\Users\Chehine\Desktop\.Net-c-\Seance\obj\Debug\net6.0\refint\Seance.dll
-C:\Users\Chehine\Desktop\.Net-c-\Seance\obj\Debug\net6.0\Seance.pdb
-C:\Users\Chehine\Desktop\.Net-c-\Seance\obj\Debug\net6.0\ref\Seance.dll

@@ -19,6 +19,12 @@ namespace AM.ApplicationCore.Domain
 
         public List<Flight> Flights { get; set; }
 
+        public override string? ToString()
+        {
+            return FirstName + LastName ;
+        }
+
+
         //public bool CheckProfile(string nom , string prenom)
         //{
         //    return (nom==FirstName && prenom==LastName);

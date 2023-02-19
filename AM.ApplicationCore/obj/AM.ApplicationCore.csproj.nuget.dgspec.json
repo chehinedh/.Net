@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Chehine\\Desktop\\.Net-c-\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {}
+    "C:\\Users\\Houssem\\source\\repos\\Houssemm\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Chehine\\Desktop\\.Net-c-\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
+    "C:\\Users\\Houssem\\source\\repos\\Houssemm\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Chehine\\Desktop\\.Net-c-\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
+        "projectUniqueName": "C:\\Users\\Houssem\\source\\repos\\Houssemm\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
         "projectName": "AM.ApplicationCore",
-        "projectPath": "C:\\Users\\Chehine\\Desktop\\.Net-c-\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
-        "packagesPath": "C:\\Users\\Chehine\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Chehine\\Desktop\\.Net-c-\\AM.ApplicationCore\\obj\\",
+        "projectPath": "C:\\Users\\Houssem\\source\\repos\\Houssemm\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
+        "packagesPath": "C:\\Users\\Houssem\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Houssem\\source\\repos\\Houssemm\\AM.ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Chehine\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Houssem\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

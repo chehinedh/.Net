@@ -19,6 +19,11 @@ namespace AM.ApplicationCore.Domain
 
         public List<Flight> flights { get; set; }
 
+        public override string? ToString()
+        {
+            return Planeid + Capacity +"date:"+ ManufactureDate + Planetyp;
+        }
+
         public Plane(int capacity, DateTime manufactureDate, Planetype planetype)
         {
             Capacity = capacity;
