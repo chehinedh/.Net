@@ -6,34 +6,28 @@ using System.Threading.Tasks;
 
 namespace AM.ApplicationCore.Domain
 {
-    public enum Planetype
+    public enum PlaneType
     {
-        Boing,
-        Airbus
+        Boing,Airbus
     }
-    public class Plane    {
-        public int Planeid { get; set; }
+    public class Plane
+    {
+        public Plane() { }
+        public int PlaneId { get; set; }    
         public int Capacity { get; set; }
         public DateTime ManufactureDate { get; set; }
-        public  Planetype Planetyp { get; set; }
+        public PlaneType PlaneType { get; set; }
 
-        public List<Flight> flights { get; set; }
-
-        public override string? ToString()
+        public IList<Flight> flights { get; set; }
+        public override string ToString()
         {
-            return Planeid + Capacity +"date:"+ ManufactureDate + Planetyp;
+            return $"PlaneID: {PlaneId}, Capacity: {Capacity}, ManufactureDate: {ManufactureDate}, PlaneType: {PlaneType}";
         }
-
-        public Plane(int capacity, DateTime manufactureDate, Planetype planetype)
+        public Plane(PlaneType pt, int capacity, DateTime date)
         {
+            PlaneType = pt;
             Capacity = capacity;
-            ManufactureDate = manufactureDate;
-            Planetyp = planetype;
-        }
-
-        public Plane()
-        {
+            ManufactureDate = date;
         }
     }
 }
-

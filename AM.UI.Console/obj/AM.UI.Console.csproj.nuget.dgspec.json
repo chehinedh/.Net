@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Houssem\\source\\repos\\Houssemm\\AM.UI.Console\\AM.UI.Console.csproj": {}
+    "C:\\Users\\Chehine\\Desktop\\AirportManagement\\AM.UI.Console\\AM.UI.Console.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Houssem\\source\\repos\\Houssemm\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
+    "C:\\Users\\Chehine\\Desktop\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Houssem\\source\\repos\\Houssemm\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
+        "projectUniqueName": "C:\\Users\\Chehine\\Desktop\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
         "projectName": "AM.ApplicationCore",
-        "projectPath": "C:\\Users\\Houssem\\source\\repos\\Houssemm\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
-        "packagesPath": "C:\\Users\\Houssem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Houssem\\source\\repos\\Houssemm\\AM.ApplicationCore\\obj\\",
+        "projectPath": "C:\\Users\\Chehine\\Desktop\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
+        "packagesPath": "C:\\Users\\Chehine\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Chehine\\Desktop\\AirportManagement\\AM.ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Houssem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Chehine\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -59,17 +63,21 @@
         }
       }
     },
-    "C:\\Users\\Houssem\\source\\repos\\Houssemm\\AM.UI.Console\\AM.UI.Console.csproj": {
+    "C:\\Users\\Chehine\\Desktop\\AirportManagement\\AM.UI.Console\\AM.UI.Console.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Houssem\\source\\repos\\Houssemm\\AM.UI.Console\\AM.UI.Console.csproj",
+        "projectUniqueName": "C:\\Users\\Chehine\\Desktop\\AirportManagement\\AM.UI.Console\\AM.UI.Console.csproj",
         "projectName": "AM.UI.Console",
-        "projectPath": "C:\\Users\\Houssem\\source\\repos\\Houssemm\\AM.UI.Console\\AM.UI.Console.csproj",
-        "packagesPath": "C:\\Users\\Houssem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Houssem\\source\\repos\\Houssemm\\AM.UI.Console\\obj\\",
+        "projectPath": "C:\\Users\\Chehine\\Desktop\\AirportManagement\\AM.UI.Console\\AM.UI.Console.csproj",
+        "packagesPath": "C:\\Users\\Chehine\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Chehine\\Desktop\\AirportManagement\\AM.UI.Console\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Houssem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Chehine\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -83,8 +91,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Houssem\\source\\repos\\Houssemm\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
-                "projectPath": "C:\\Users\\Houssem\\source\\repos\\Houssemm\\AM.ApplicationCore\\AM.ApplicationCore.csproj"
+              "C:\\Users\\Chehine\\Desktop\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
+                "projectPath": "C:\\Users\\Chehine\\Desktop\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj"
               }
             }
           }

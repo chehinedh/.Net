@@ -8,19 +8,24 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Houssem\\.nuget\\packages\\": {}
+    "C:\\Users\\Chehine\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Houssem\\source\\repos\\Houssemm\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
+      "projectUniqueName": "C:\\Users\\Chehine\\Desktop\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
       "projectName": "AM.ApplicationCore",
-      "projectPath": "C:\\Users\\Houssem\\source\\repos\\Houssemm\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
-      "packagesPath": "C:\\Users\\Houssem\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Houssem\\source\\repos\\Houssemm\\AM.ApplicationCore\\obj\\",
+      "projectPath": "C:\\Users\\Chehine\\Desktop\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
+      "packagesPath": "C:\\Users\\Chehine\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Chehine\\Desktop\\AirportManagement\\AM.ApplicationCore\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Houssem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Chehine\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
