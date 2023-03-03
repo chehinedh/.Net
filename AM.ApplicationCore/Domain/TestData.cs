@@ -38,8 +38,13 @@ namespace AM.ApplicationCore.Domain
         {
             new Traveller
             {
+<<<<<<< HEAD
                 FirstName="malek",
                 LastName="abbes",
+=======
+                FirstName="Traveller1",
+                LastName="Traveller1",
+>>>>>>> 292464a496e201fbed13c6bbe6a28d241a4cbfbd
                 EmailAddress="traveller1@gmail.com",
                 Nationality="Americain",
                 BirthDate=new DateTime(1988,02,04)

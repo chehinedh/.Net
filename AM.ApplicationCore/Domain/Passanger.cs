@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+<<<<<<< HEAD
 using System.ComponentModel.DataAnnotations;
+=======
+>>>>>>> 292464a496e201fbed13c6bbe6a28d241a4cbfbd
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,6 +11,7 @@ using System.Threading.Tasks;
 namespace AM.ApplicationCore.Domain
 {
     public class Passanger
+<<<<<<< HEAD
 
     {
         [DataType(DataType.Date)]
@@ -33,6 +37,15 @@ namespace AM.ApplicationCore.Domain
         
 
         public List<Flight> flights { get; set; }
+=======
+    {
+       public DateTime BirthDate { get; set; }
+       public int PassportNumber { get; set; }
+        public string EmailAddress { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public int TelNumber { get; set; }
+>>>>>>> 292464a496e201fbed13c6bbe6a28d241a4cbfbd
         public override string ToString()
         {
             return $"BirthDate: {BirthDate}, PassportNumber: {PassportNumber}, EmailAddress: {EmailAddress}, FirstName: {FirstName}, LastName: {LastName}, TelNumber: {TelNumber}";

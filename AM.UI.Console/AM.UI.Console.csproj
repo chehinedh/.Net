@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿<Project Sdk="Microsoft.NET.Sdk">
+=======
+<Project Sdk="Microsoft.NET.Sdk">
+>>>>>>> 292464a496e201fbed13c6bbe6a28d241a4cbfbd
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -8,6 +12,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+<<<<<<< HEAD
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.3">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -17,6 +22,9 @@
   <ItemGroup>
     <ProjectReference Include="..\AM.ApplicationCore\AM.ApplicationCore.csproj" />
     <ProjectReference Include="..\AM.Infrastructure\AM.Infrastructure.csproj" />
+=======
+    <ProjectReference Include="..\AM.ApplicationCore\AM.ApplicationCore.csproj" />
+>>>>>>> 292464a496e201fbed13c6bbe6a28d241a4cbfbd
   </ItemGroup>
 
 </Project>

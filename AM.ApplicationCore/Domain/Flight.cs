@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+<<<<<<< HEAD
 using System.ComponentModel.DataAnnotations.Schema;
+=======
+>>>>>>> 292464a496e201fbed13c6bbe6a28d241a4cbfbd
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,9 +18,12 @@ namespace AM.ApplicationCore.Domain
         public DateTime FlightDate { get; set; }
         public DateTime EffectiveArrival { get; set; }
         public int EstimatedDuration { get; set; }
+<<<<<<< HEAD
 
         [ForeignKey("Plane")]
         public int PlaneId { get; set; }
+=======
+>>>>>>> 292464a496e201fbed13c6bbe6a28d241a4cbfbd
         public Plane plane { get; set; }
         
         public IList<Passanger> passangers { get; set; }

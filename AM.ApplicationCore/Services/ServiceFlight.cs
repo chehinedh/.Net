@@ -1,10 +1,17 @@
 ﻿using AM.ApplicationCore.Domain;
 using AM.ApplicationCore.Interfaces;
+<<<<<<< HEAD
+=======
+using Microsoft.VisualBasic;
+>>>>>>> 292464a496e201fbed13c6bbe6a28d241a4cbfbd
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
+<<<<<<< HEAD
 using System.Security.Cryptography.X509Certificates;
+=======
+>>>>>>> 292464a496e201fbed13c6bbe6a28d241a4cbfbd
 using System.Text;
 using System.Threading.Tasks;
 
@@ -68,6 +75,7 @@ namespace AM.ApplicationCore.Services
             }
         }
 
+<<<<<<< HEAD
         //LINQ syntaxe des requete
         public IList<DateTime> GetFlightDateslinq(string destination)
         {
@@ -182,3 +190,109 @@ namespace AM.ApplicationCore.Services
     }
 
 }
+=======
+    }
+
+    // LINQ
+
+    public IList<DateTime> GetFlightDates2(string destination)
+    {
+        /*var query= from f in flights
+                   where f.Destination == destination
+                   select f.FlightDate;
+        return query.ToList();*/
+        var query = Flights
+            .where(f => f.Destination == destination);
+        .Select(f => f.FlightDate);
+        return query.ToList();
+    }
+
+    public void ShowFlightDetails(Plane plane)
+    {
+        /*var req = from f in Flights
+                  where (f.MyPlane == plane)
+                  select new { f.FlightDate, f.Destination };
+        foreach (var item in req)
+        {
+            Console.WriteLine(item.Destination+" "+item.Flighdate);
+        }*/
+        var req = Flights 
+                .Where (f => f.Destination)
+                .Select (f => new { f.FlightDate, f.Destination })
+       foreach (var item in req)
+        {
+            Console.WriteLine(item.Destination + " " + item.Flighdate);
+        }
+    }
+
+    public int ProgrammedFlightNumber(DateTime startDate)
+    {
+        /*var req = from f in Flights
+                      // where (f.FlightDate > startDate && f.FlightDate < startDate.AddDays(7))
+                  where ( f.FlightDate > startDate && (f.FlightDate - startDate).TotalDays < 7 )
+                  select f;
+        return req.count();*/
+
+        return Flights
+            .Where(f = > f.Flighdate > startDate && (from.FlightDate - startDate).TotalDays < 7)
+            .Count();
+    }
+
+    public float DurationAverage(string Destination)
+    {
+        /*var query = from f in Flights
+                    where f.Destination == Destination
+                    select f;
+        return query.Average(f => f.EstimatedDuration);*/
+        var query = Flights
+                .Where((f) => f.Destination == Destination)
+                .Average(f => f.EstimatedDuration);
+        return query.Average();
+    }
+    public IList<Flight> OrderedDurationFlights()
+    {
+        /*var query = from f in Flights
+                    orderby f.EstimatedDuration descending
+                    select f;
+        return query.ToList();*/
+        return Flights
+            .orderbydescending(f => f.EstimatedDuration)
+            .ToList();
+    }
+    public IList<Traveller> SeniorTravellers(Flight flight)
+    {
+        /*var query = (from f in Flights
+                    where f.FlightId == flight.FlightId
+                    select f).Single();*/
+        return flight.passanger
+            .OfType<Traveller>()
+            .OrderBy(p => p.BirthDate)
+            .Take(3)
+            .ToList();
+    }
+
+    public IList<IGrouping<string, Flight>> DestinationGroupedFlights()
+    {
+        var req = Flights
+            .GroupBy(f => f.Destination).ToList();
+        foreach (var item in req)
+        {
+            Console.WriteLine("Destinatin:"+item.key);
+            foreach (var item2 in item)
+            {
+                Console.WriteLine("Décollage:"+item2.FlightDate);
+            }
+        }
+        return req;
+    }
+    Action<Plane> FlightDetailsDel;
+    Func<string, double> DurationAverageDel;
+    
+    public ServiceFlight()
+    {
+
+    }
+}
+
+
+>>>>>>> 292464a496e201fbed13c6bbe6a28d241a4cbfbd

@@ -54,14 +54,24 @@ Plane p3 = new Plane()
 Console.WriteLine(p3.ToString());
 Passanger pass1 = new Passanger
 {
+<<<<<<< HEAD
     FirstName = "mariem",
     LastName = "aljene",
     EmailAddress = "mariem.aljene@esprit.tn"
+=======
+    FirstName = "chehine",
+    LastName = "dhemaied",
+    EmailAddress = "chehine.dhemaied@esprit.tn"
+>>>>>>> 292464a496e201fbed13c6bbe6a28d241a4cbfbd
 
 
 };
 
+<<<<<<< HEAD
 Console.WriteLine(pass1.CheckProfil("mariem", "aljene"));
+=======
+Console.WriteLine(pass1.CheckProfil("chehine", "dhemaied"));
+>>>>>>> 292464a496e201fbed13c6bbe6a28d241a4cbfbd
 pass1.PassangerType();
 Staff stf = new Staff();
 stf.PassangerType();
@@ -102,6 +112,7 @@ delegate (string a, Flight flight)
 {
     return flight.Destination == a;
 });
+<<<<<<< HEAD
 
 int x = 45;
 Console.WriteLine(x.Add(4));
@@ -112,6 +123,13 @@ Console.WriteLine(x.Add(4));
 //);
 Passanger passanger = service.Flights[0].passangers[0];
 Console.WriteLine(passanger.UpperFullName());
+=======
+service.GetFlights("Paris",
+ (string a, Flight flight) =>
+
+     flight.EstimatedDuration == int.Parse(a)
+);
+>>>>>>> 292464a496e201fbed13c6bbe6a28d241a4cbfbd
 
 
 
